@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Rewire</string>
+
+    <string name="accessibility_description">
+        Helps monitor selected apps and provide focus interventions.
+    </string>
+</resources>
