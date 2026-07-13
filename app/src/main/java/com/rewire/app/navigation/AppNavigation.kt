@@ -11,7 +11,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.rewire.app.ui.analytics.AnalyticsScreen
 import com.rewire.app.ui.dashboard.DashboardScreen
-import com.rewire.app.ui.interventions.InterventionsScreen
+import com.rewire.app.ui.interventions.InterventionScreen
 import com.rewire.app.ui.settings.SettingsScreen
 
 @Composable
@@ -65,7 +65,7 @@ fun AppNavigation() {
                 Routes.Interventions.route
             ) {
 
-                InterventionsScreen(innerPadding = innerPadding)
+                InterventionScreen(innerPadding = innerPadding)
             }
 
             composable(
